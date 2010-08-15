@@ -1,0 +1,67 @@
+--- 
+dependencies: 
+  dm-observer: 
+    group: 
+    - :default
+    version: = 0.9.10
+  dm-core: 
+    group: 
+    - :default
+    version: = 0.9.10
+  chronic: 
+    group: 
+    - :default
+    version: = 0.2.3
+  twitter: 
+    group: 
+    - :default
+    version: ">= 0"
+  do_sqlite3: 
+    group: 
+    - :default
+    version: ">= 0"
+  nokogiri: 
+    group: 
+    - :default
+    version: = 1.1.1
+specs: 
+- rake: 
+    version: 0.8.7
+- addressable: 
+    version: 2.0.2
+- json_pure: 
+    version: 1.4.6
+- rubyforge: 
+    version: 2.0.4
+- hoe: 
+    version: 2.6.1
+- chronic: 
+    version: 0.2.3
+- crack: 
+    version: 0.1.6
+- extlib: 
+    version: 0.9.15
+- data_objects: 
+    version: 0.9.12
+- dm-core: 
+    version: 0.9.10
+- dm-observer: 
+    version: 0.9.10
+- do_sqlite3: 
+    version: 0.9.12
+- hashie: 
+    version: 0.2.2
+- httparty: 
+    version: 0.5.2
+- nokogiri: 
+    version: 1.1.1
+- oauth: 
+    version: 0.4.2
+- yajl-ruby: 
+    version: 0.7.7
+- twitter: 
+    version: 0.9.8
+hash: 2a7063dbaabb55b80b80d6db7d601470b25c4544
+sources: 
+- Rubygems: 
+    uri: http://rubygems.org
