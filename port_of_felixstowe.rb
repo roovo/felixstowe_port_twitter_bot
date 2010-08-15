@@ -1,8 +1,10 @@
-# Twitter port of felixstowe arrivals and departures
+require 'rubygems'
+require 'bundler'
+
+Bundler.setup
 
 $LOAD_PATH  << File.expand_path(File.dirname(__FILE__) + '/lib')
 
-require 'rubygems'
 require 'dm-core'
 require 'dm-validations'
 require 'dm-observer'
