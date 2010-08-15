@@ -4,11 +4,11 @@ class VisitObserver
   observe Visit
 
   after :create do
-    ::TWITTER.status(:post, arrival_tweet)
+    ::TWITTER.update(arrival_tweet)
   end
 
   after :destroy do
-    ::TWITTER.status(:post, departure_tweet)
+    ::TWITTER.update(departure_tweet)
   end
 end
 
